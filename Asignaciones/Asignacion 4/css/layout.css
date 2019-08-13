@@ -1,0 +1,70 @@
+body
+{
+	text-align: center;
+}
+
+
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+#contenedor
+{
+	width: 1000px;
+	height: 1000px;
+	background: #FBF2EF;
+	margin: 0.5em auto ;
+	padding: 0.5em;
+}
+
+#cabecera{
+	height: 20%;
+	background:#F6D8CE;
+	border-radius: 1em;
+	margin: 1em  ;
+}
+
+#nav{
+	height: 10%;
+	background:#F8E6E0;
+	border-radius: 1em;
+	margin: 1em  ;
+}
+#cuerpo{
+	height: 42%;
+	background: #F6D8CE;
+	margin: 1em;
+}
+#pie{
+	height: 20%;    /* height es el alto del enmaquetado */
+	background: #F8E6E0; /* background es el color o imagen de fondo*/
+	border-radius: 1em;  /*el borde-radius es el borde de la maqueta redondeado*/
+	margin: 1em;  /* margin es el margen que tendra de un extremo al mismo*/
+}
+#section{
+	height: 93%;
+	width: 67% ;     /* width es el ancho que se le da a la maqueta*/
+	background: #A4A4A4;
+	border-radius: 1em;
+	float: left;  
+	 margin: 1em;    /*el float sirve para aliniar la maqueta a la iz. o der.*/
+}                    /*right es alineado a la izqui.*/
+                     /* left es alineado a la izqui*/
+#aside{
+    height: 93%;
+	width: 25% ;     /* width es el ancho que se le da a la maqueta*/
+	background: #A4A4A4;
+	border-radius: 1em;
+	float: right;
+	margin: 1em;
+
+}
+.articulo{
+	height: 30%;
+	width: 90%;
+	background: #FFFFFF;
+	margin: 1em;
+	border-radius: 1em;
+}
