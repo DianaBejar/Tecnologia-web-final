@@ -1,0 +1,61 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+#maquetado
+{
+	width: 1000px;
+	height: 1000px;
+	margin: 0.5em auto; /*auto para poner al centro las tablas */
+	padding: 0.5em;
+}
+
+#cabecera{
+	height: 10%;
+	border-radius: 1em;
+	margin: 1em  ;
+}
+
+#nav{
+	height: 10%;
+	background:#424242 ;
+	border-radius: 1em;
+	margin: 1em  ;
+}
+#cuerpo{
+	height: 42%;
+	background: #FFFFFF;
+	margin: 1em;
+}
+#pie{
+	height: 20%;    /* height es el alto del enmaquetado */
+	background: #424242; /* background es el color o imagen de fondo*/
+	border-radius: 1em;  /*el borde-radius es el borde de la maqueta redondeado*/
+	margin: 1em;  /* margin es el margen que tendra de un extremo al mismo*/
+}
+#section{
+	height: 93%;
+	width: 67% ;     /* width es el ancho que se le da a la maqueta*/
+	background: #A4A4A4;
+	border-radius: 1em;
+	float: left;  
+	 margin: 1em;    /*el float sirve para aliniar la maqueta a la iz. o der.*/
+}                    /*right es alineado a la izqui.*/
+                     /* left es alineado a la izqui*/
+#aside{
+    height: 93%;
+	width: 27% ;     /* width es el ancho que se le da a la maqueta*/
+	background: #A4A4A4;
+	border-radius: 1em;
+	float: right;
+	margin: 1em;
+
+}
+.articulo{
+	height: 20%;
+	width: 90%;
+	background: #FFFFFF;
+	margin: 1em;
+	border-radius: 1em;
+}

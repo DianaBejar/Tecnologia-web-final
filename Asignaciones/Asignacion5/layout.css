@@ -1,0 +1,58 @@
+
+@import url('https://fonts.googleapis.com/css?family=Nunito|Open+Sans');
+@import url(menu.css);
+@import url(banner.css);
+@import url(blog.css);
+@import url(info.css);
+@import url(redes.css);
+
+	*{
+	margin:0;
+	padding:0 ;
+	box-sizing:border-box; /* para que al dar borde o padding ese borde se adapte al tamaño de la caja */
+
+ 	}
+
+ 	body 
+ 	{
+ 		font-family: 'Open Sans', sans-serif;
+
+	} 
+
+	header
+	{
+		width: 100%;   /*medida de la linea de cabecera fondo de goodcoffe*/
+		height: 70px; /*Es lamedida de la linea de cabecera*/
+		background: #585858;
+		color: #A9F5A9;
+
+		position: fixed;
+		top: 0;
+		left: 0;
+		z-index: 100; 
+
+	}
+	#contenedor
+	{
+		width: 98%;
+		margin: auto;
+	}
+	h1
+	{
+		float: left;
+		color: #FFFFFF;
+	}
+	header .contenedor
+	{
+		display: table; /*ajusta el banner*/
+	}
+
+	section
+	{
+		width: 100%;
+		margin-bottom: 25px;
+	}
+#bienvenidos
+{
+	text-align: center;
+}
