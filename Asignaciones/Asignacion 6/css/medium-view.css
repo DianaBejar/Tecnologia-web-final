@@ -1,0 +1,109 @@
+/*@media screen and (max-width:768px)
+{ 
+     header label{
+         display: block;
+
+     }
+    
+}*/
+nav {
+	margin: 0 auto;
+	max-width: 760px;
+	
+}
+.navigation {
+	list-style: none;
+	text-align: center;
+	padding: 0;
+}
+.navigation li:first-child {
+	display: block;
+}
+.navigation li {
+	display: none;
+}
+.navigation a {
+	display: block;
+	color: #fff;
+	padding: 0.75rem;
+	text-align: center;
+	text-decoration: none;
+}
+.navigation a:hover {
+	color: #000;
+	background-color: #fff;
+	font-weight: 700;
+}
+
+/* the onclick JS toggles the .repsonsive class from display none (.navigation li)
+ to display block because the repsonsive class is added to the end of the class list like this in HTML Line #6.
+  <ul class="navigation responsive">
+  */
+
+ 
+
+
+
+
+
+.responsive li {
+	display: block;
+}
+/*IMAGENES*/
+
+.galeria {
+	width: 100%;
+	display:flex;
+	flex-wrap:wrap;
+justify-content:center;
+
+	
+}
+
+.galeria img {
+	vertical-align: top;
+	width: 350px;
+	margin: 10px;
+	padding: 5px;
+	opacity:0.5;
+	border:1px solid #484848;
+}
+
+.galeria img:hover {
+	border: 1px solid #fff;
+	opacity: 1;
+}
+
+/* Media Query for medium + screens */
+@media only screen and (min-width: 32.5em) {
+	.navigation {
+		display: flex;
+	}
+	.navigation li:first-child {
+		display: none;
+	}
+	.navigation li {
+		display: block;
+		flex: 1 1 100%;
+	}
+	.navigation li a {
+		font-size: 1.2em;
+		color: rgb(255, 255, 255);
+	}
+
+	.sub-navigation {
+		display: flex;
+	}
+	.sub-navigation li:first-child {
+		display: none;
+	}
+	.sub-navigation li {
+		display: block;
+		flex: 1 1 100%;
+	}
+	.sub-navigation li a {
+		font-size: 1.2em;
+		color: rgb(255, 255, 255);
+	}
+
+}
