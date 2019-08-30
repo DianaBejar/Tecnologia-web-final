@@ -1,70 +1,254 @@
-body
+.slider
 {
-	text-align: center;
+  width: 100;
+margin: auto;
+overflow: hidden;
+
+
+}
+.slider li img
+{
+    width: 100%;
+    
+  
+
+}
+.slider ul{
+    padding: 0;
+    display:flex;
+    width: 300%;
+    animation: cambio 15s infinite alternate;
+   
+}
+.slider li{
+    width: 100%;
+    list-style: none;
+
+}
+@keyframes cambio{
+    0% { margin-left: 0;}
+    39%{ margin-left: 0;}
+
+
+    43% {margin-left: -100%;}
+    82%{margin-left: -100%;}
+
+    86% {margin-left: -200%;}
+    100%{margin-left: -200%;}
+
+
+
+}
+header{
+   
+    width: 100%;
+    background-color: #259ddc;
+    
+}
+
+body{
+    margin: 0;
+    font-family: sans-serif;
+    background: url(../img/fondo1.jpg) #000;
+    background-size: cover;
+    color: #fff;
+    font-size: 16px;
+}
+#btn-menu{
+    display: none;
+}
+header label{
+    display: none;
+    width: 30px;
+    height: 30px;
+    padding:10px;
+    border-right: 1px solid#fff;
+}
+header label:hover{
+    cursor: pointer;
+    background: rgb(192, 46, 46,0.3);
+
+}
+.menu ul{
+    margin: 0;
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+}
+.menu li{
+    border-right: 1px solid #fff;
+}
+.menu li:hover{
+    background: rgb(230, 129, 129, 0.3);
+}
+.menu li a{
+    display: block;
+    padding: 15px 20px;
+    color: #fff;
+    text-decoration: none;
+}
+#fondomenu{
+    width: 100%;  
+    
 }
 
 
+.sub-navigation{
+    display: none;
+
+
+
+}
+.nav li:hover > .sub-navigation{
+       display: block;
+    
+}
+/* ---------------------reloj---------------------------*/
 
 *{
-	margin: 0;
-	padding: 0;
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+
+}
+.wrap{
+   
+    
+    width: 200%;
+    max-width: 1000px;
+    position: relative;
+   
+}
+.widget{
+    width: 40%;
+    margin: 2em;
+}
+.widget p{
+    display: inline-block;
+    line-height: 1em;
+}
+.fecha{
+    font-family: Oswald, Arial;
+    text-align: center;
+    font-size: 1.5em;
+    margin-bottom: 0.3125rem;
+    background: rgba(0,0,0,.5);
+    padding:20px;
+    width: 100%;
+}
+.reloj {
+    font-family: Oswald, Arial;
+    width: 100%;
+    padding: 10px;
+    font-size: 4em;
+    text-align: center;
+    background: rgba(0,0,0,.5);  
+}
+.reloj .caja-segundos{
+    display: inline-block;
 }
 
-#contenedor
+.reloj .segundos,
+.reloj .ampm{
+    font-size: 2rem;
+    display: block;
+}
+
+/*himno*/
+.img-relleno img{
+ width: 25%;
+ margin: 100px 80px 10px 100px;
+ position: absolute;
+ 
+}
+#himno
 {
-	width: 1000px;
-	height: 1000px;
-	background: #FBF2EF;
-	margin: 0.5em auto ;
-	padding: 0.5em;
+    color: black;
+    
+    margin: 80px 80px 80px 750px;
+    position: relative;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+    
+}
+#himno h2{
+    font-size: 30px;
+    text-align: center;
+    
+    
 }
 
-#cabecera{
-	height: 20%;
-	background:#F6D8CE;
-	border-radius: 1em;
-	margin: 1em  ;
+/* -----------------Descripcion-pag--------------------*/
+#descripcion_pag
+{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background:rgba(64, 112, 133, 0.4);
+    color: black;
+    text-align: center;
+    position: relative;
+    font-family: cursive;
+    font-size: 18px;
+    
 }
+/*-------------------footer------------------*/
+footer{
+   
+    color: black;
+    text-align: center;
+    background: rgb(35, 167, 228)
 
-#nav{
-	height: 10%;
-	background:#F8E6E0;
-	border-radius: 1em;
-	margin: 1em  ;
+    
 }
-#cuerpo{
-	height: 42%;
-	background: #F6D8CE;
-	margin: 1em;
-}
-#pie{
-	height: 20%;    /* height es el alto del enmaquetado */
-	background: #F8E6E0; /* background es el color o imagen de fondo*/
-	border-radius: 1em;  /*el borde-radius es el borde de la maqueta redondeado*/
-	margin: 1em;  /* margin es el margen que tendra de un extremo al mismo*/
-}
-#section{
-	height: 93%;
-	width: 67% ;     /* width es el ancho que se le da a la maqueta*/
-	background: #A4A4A4;
-	border-radius: 1em;
-	float: left;  
-	 margin: 1em;    /*el float sirve para aliniar la maqueta a la iz. o der.*/
-}                    /*right es alineado a la izqui.*/
-                     /* left es alineado a la izqui*/
-#aside{
-    height: 93%;
-	width: 25% ;     /* width es el ancho que se le da a la maqueta*/
-	background: #A4A4A4;
-	border-radius: 1em;
-	float: right;
-	margin: 1em;
+/* --------------------- Redes--------------------------*/
+.social-bar
+{
+	position: fixed;
+	right: 0;
+	top: 55%;
+	font-size: 1.5rem;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+	z-index: 100;
 
 }
-.articulo{
-	height: 30%;
-	width: 90%;
-	background: #FFFFFF;
-	margin: 1em;
-	border-radius: 1em;
+.icon
+{
+	color: white;
+	text-decoration: none;
+	padding: .7rem;
+	display: flex;
+	transition: all .5s;
+
+}
+.icon-facebook
+{
+	background: blue;
+}
+.icon-twitter
+{
+	background: #0489B1;
+}
+.icon-whatsapp
+{
+	background: #01DF01;
+}
+.icon-instagram
+{
+	background: #8181F7;
+}
+.icon:first-child
+{
+	border-radius: 1rem 0 0 0;
+}
+
+.icon:hover
+{
+	padding-right: 3rem;
+	border-radius: 1rem 0 0 1rem;
+	box-shadow: 0 0 .5rem rgba(0, 0, 0, 0.42)
 }

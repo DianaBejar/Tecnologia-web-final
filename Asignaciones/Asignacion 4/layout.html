@@ -1,110 +1,139 @@
 <!DOCTYPE html>
-<html lang="es">
-  <head>
-	<title>TurisLLajata</title>
-	<meta charset="utf-8">
-	<link rel="stylesheet" type="text/css" href="css/layout.css">
-  </head>
-
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="icon" type="image/png" href="img/favicon.png">
+    <link rel="stylesheet" href="css/layout.css">
+    <link rel="stylesheet" href="css/medium-view.css">
+    <link rel="stylesheet" href="iconos/font.css">
+    <link href= 'https://fonts.googleapis.com/css?family=Oswald&display=swap' rel="stylesheet">
+    <title>Turisllajta</title>
+</head>
 <body>
-	<header>
-        <h1 id="TituloPrincipal">TURISLLAJTA</h1>
-        
 
-            <nav>
-                    <ul>
-                        <li>Inicio</li>
-                        <li>Curiosidades</li>
-                        <li>Contactos</li>
-                    </ul>
-                </nav>
-        
+        <header>
                 
-	</header>
-	
-	<div id="contenedor">
-		
-		<div id="cabecera"  >
-			
-			 <img src="img/banneropcion.jpg" alt="imgbanner" width="900" height="175">
-            
-		  </div>
+            <nav>
+                <ul class="navigation">
+                    <li><a href="#" onclick="MenuDesplegable()">&#9776; Menu</a></li>
+                    <li><a href="layout.html">Inicio</a></li>
+                        <li><a href="informacionjson.html">Lugares Turisticos</a></li>
+                        
+                        <li><a href="#">Servicios</a></li>
+                        <li><a href="Contacto.html">Contacto</a></li>
+                        <li><a href="galeria.html">Galeria</a></li>
+                </ul>
+            </nav>
+               <div class="slider">
+                    <ul>
+                        <li><img src="img/banner1.jpg" alt="" ></li>
+                        <li><img src="img/banner2.jpg" alt=""></li>
+                        <li><img src="img/banner3.jpg" alt=""></li>
+                    </ul>
+               </div>
 
-		<div id="cuerpo">
+                 
+                </header>
+                <main>
+                  <section>
+                      <div class="img-relleno">
+                          <img src="img/Escudo.png" alt="Escudo cochabamba">
 
-			<div id="section">
-				  <h2 class="articulo">  Articulo 1
+                      </div>
+                    <div id="himno">
+                        <h2> HIMNO A COCHABAMBA</h2>
+                        <br> <br>
+                         <h4>   Letra: Benjamín Blanco </h4>
+                         <br>
+                         <p> Brilla el sol de Septiembre radiante  <br>
+                              reflejando la gloria inmortal    <br>
+                                del gran pueblo que firme y constante  <br>
+                                fue primero en la lucha marcial. </p>    
+                                <br>
+                            
+                                <p> Libertad del Tunari en la cumbre <br>
+                                     ya su solio por siempre fijo <br>
+                                        la cadena de vil servidumbre   <br>
+                                        Cochabamba esforzada rompió.  </p>   
+                                        <br>
+                            
+                           <p>De sus hijos el noble ardimiento  <br>
+                                su altivez y denuedo sin par   <br>
+                                despertaron el bélico aliento  <br> 
+                                de cien pueblos que van a luchar.</p>    
+                            
+                    </div>
+                           
+                  </section>
+                </main>
+                <div id="descripcion_pag">
+                    <br>
+                
+                    <h2>Objetivos de la pagina</h2>
+                    <br>
+                        <p> Descripcion La página está enfocada en promover información 
+                         acerca de nuestra cultura, el cual contiene completainformación
+                          sobre destinos turísticos de Cochabamba ubicado en el País de Bolivia,
+                           en esta página se encontrará información y datos meteorológicos de 
+                           algunos lugares que más resaltan en Cochabamba, ya que es una ciudad 
+                           con alta variedad de paisajes, gastronomía, historia e importante
+                            cultura.</p>
+ 
+                 </div>
+                <aside>
+                        <div class="wrap">
+                                <div class="widget">
+                                    <div class="fecha">
+                                        <p id="diaSemana" class="diaSemana"></p>
+                                        <p id="dia" class="dia"></p>
+                                        <p> de </p>
+                                        <p id="mes" class="mes"></p>
+                                        <p>del</p>
+                                        <p id="year" class="year"></p>
+      
+                                    </div>
+      
+                                
+      
+      
+                            <div class="reloj">
+                                <p id="horas" class="horas"></p>
+                                <p>:</p>
+                                <p id="minutos" class="minutos"></p>
+                                <p>:</p>
+                                <div class="caja-segundos">
+                                    <p id="ampm" class="ampm"></p>
+                                    <p id="segundos" class="segundos"></p>
+      
+                                </div>
+      
+                            </div>
+                          </div>
+      
+                      </div>
 
-				  </h2>
-				  <h2 class="articulo">Articulo 2
+                      
+               
+                </aside>
+                <div class="social-bar">
+                        <a href="#" class="icon icon-facebook" ></a>
+                        <a href="#" class="icon icon-twitter" ></a>
+                        <a href="#" class="icon icon-whatsapp" ></a>
+                        <a href="#" class="icon icon-instagram"></a>
+                        <!--<a href="#" class="icon icon-instagram" target="_blank"></a> target es para que se abra en otra ventana-->
+                        
+                    </div>
+                <footer>
+                   <h5>  DERECHOS RESERVADOS DIANA BEJAR - FABIOLA BUSTAMANTE. </h5>
 
-				  </h2>
-				  <h2 class="articulo"> Articulo 3</h2>
-				 
+                   <br>
 
-			  </div>		
-		</div>
-	</div>
-	<main>
-		<aside id="left">
-				
-			</aside>
-		
-		<aside id="right">
-				
-			</aside>
-		<h2>¿Quieres conocer mas sobre Cochabamba? !ESTAS EN EL LUGAR CORRECTO¡</h2>
-		<p>Esta pagina te hará
-			conocer completa informació sobre distintos sitios de Cochabamaba</p>
-		   
+              
+                </footer>
 
-			<section>
-					
-					<div class="contenidobanner"> 
-					  <h2> Descubre más de nuestra <strong> Cultura!</strong> </h2>
-					   <p>¿Cúal sera tu proximo destino?</p>
-					   
-					</div>
-				   
-				  </section>
-
-				  <section id="blog">
-						<h3>CONOCE NUESTROS ENCANTADORES LUGARES POR CONOCER EN COCHABAMBA-BOLIVIA</h3>
-						<div class="contenidoblog">
-						  <table>
-							  <thead>
-								  <tr>
-									  <td> <a href="#"><img src="img/destino1.jpg" alt="Villa Tunari"></a>
-										<h4><em>Villa Tunari</em></h4></td>
-										<td><a href="#"><img src="img/destino2.jpg" alt="Pairumani"></a>
-											<h4><em>Pairumani</em></h4></td>
-								  </tr>
-							  </thead>
-							  <tbody>
-								  <tr>
-									  <td> <a href="#"><img src="img/destino3.jpg" alt="Cristo de la concordia"></a>
-										<h4><em>Cristo de la concordia</em></h4></td>
-										<td><a href="#"><img src="img/destino4.jpg" alt="Angostura"></a>
-											<h4> <em>Angostura</em> </h4></td>                                            
-								  </tr>
-							  </tbody>
-						   
-						  
-							
-						  </table>
-						 
-						</div>
-					  </section>
-
-
-</main>
-
-	
-	<footer>
-        Derechos reservados Diana Bejar - Fabiola Bustamante. 
-    </footer>
-
+          <script src="js/menu.js"></script>
+    
 </body>
-
 </html>
-

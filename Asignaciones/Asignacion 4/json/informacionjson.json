@@ -1,0 +1,41 @@
+{
+    "squadName": "TurisLLajta",
+    "Ciudad ": "COCHABAMBA",
+    "forme": 2019,
+    "secretBase": "Super tower",
+    "active": true,
+    "members": [
+      {
+        "name": "Cristo de la Concordia",
+        "age": 40,
+        "secretIdentity": "Cerro de San Pedro",
+        "powers": [
+          "Se encuentra a unaaltura de 265 metro sobre la ciudad de Cochabamba",
+          "Direccion: Av de la concordia, Cochabamba",
+          "Horario: Abierto las 24 horas"
+        ]
+      },
+      {
+        "name": "Villa Tunari",
+        "age": 3.213,
+        "secretIdentity": "Ubicado en la provincia de Chapare del departamento de Cochabamba",
+        "powers": [
+          "Municipio: Villa Tunari",
+          "esta a 160km al noreste de la cuidad de cochabamba",
+          "Variedad de flora y fauna"
+        ]
+      },
+      {
+        "name": "Laguna Angostura",
+        "age": 2.700,
+        "secretIdentity": "Ubicado en el municipio de Arbieto",
+        "powers": [
+          "Su nombre oficial es <<Represa México>>",
+          "ubicado a 17km de la ciudad de cochabamba ",
+          "Se construyo con la cooperación del gobierno de México",
+          "Se inaguro el 9 de enero de 1945",
+          "la primera y mas grande represa del pais de Bolivia"
+        ]
+      }
+    ]
+  }

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/layout.css">
+    <link rel="stylesheet" href="css/medium-view.css">
+    <link rel="stylesheet" href="css/formulario.css">
+    <link href= 'https://fonts.googleapis.com/css?family=Oswald&display=swap' rel="stylesheet">
+    <title>Turisllajta</title>
+</head>
+<body>
+
+        <header>
+                
+            <nav>
+                <ul class="navigation">
+                    <li><a href="#" onclick="MenuDesplegable()">&#9776; Menu</a></li>
+                    <li><a href="layout.html">Inicio</a></li>
+                    <li><a href="informacionjson.html">Lugares Turisticos</a></li>
+                    
+                    <li><a href="#">Servicios</a></li>
+                    <li><a href="Contacto.html">Contacto</a></li>
+                    <li><a href="galeria.html">Galeria</a></li>
+                </ul>
+            </nav>
+              
+                </header>
+                <main>
+                    
+                    <h2>Formulario de Contacto</h2>
+                    <form method="get" action="Gracias.html">
+                        <fieldset>
+                            <legend>Informacion</legend>
+                            <label for="Nombre Completo *"><input type="text" name="nombre" pattern="[A-Za-z].{5,}" placeholder="Nombre"required></label>
+                            <label for="Email*"><input type="email" name="Email" placeholder="example@mymail.com"required></label>
+                            <label for="Telefono*"><input type="tel" name="telefono" placeholder="####-####"required></label>
+                            <label for="Fecha"><input type="date" name="date"></label>
+                            <label>Tipo de Usuario
+                                <input list="tipo de Usuario" name="tipo de Usuario">
+                                <datalist id= "tipo de Usuario">
+                                    <option value = "Turista Nacional"></option>
+                                    <option value = "Turista Extranjero"></option>
+                                    <option value = "Turista"></option>
+                                </datalist>
+                            </label>
+                            <label>Informaciones de los Lugares 
+                                    <select name="Lugar">
+                                        <option value = "">Seleccione un lugar</option>
+                                        <option value = "Cochabamba">Cochabamba</option>
+                                        <option value = "Villa Tunari">Villa Tunari</option>
+                                        <option value = "Pairumani">Pairumani</option>
+                                </select>
+                                    
+                                </label>
+                        </fieldset>
+                         <input class="send"type="submit" value="ENVIAR">
+                         <input class="send"type="submit" value="CANCELAR">
+                    </form>
+                </div>
+                     <section>
+                           <article>
+                           </article>
+                           <article>
+              
+                           </article>
+                  </section>
+                </main>
+                <aside>
+                      
+                            
+
+                      
+               
+                </aside>
+                <footer>
+              
+                </footer>
+
+          <script src="js/menu.js"></script>
+    
+</body>
+</html>
