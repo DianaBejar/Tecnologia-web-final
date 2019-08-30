@@ -1,5 +1,9 @@
 /* || general styles */
 
+#ainfo{
+  font-size: 15px;
+  color: white;
+}
 html {
     font-family: 'helvetica neue', helvetica, arial, sans-serif;
   }

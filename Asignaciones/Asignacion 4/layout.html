@@ -7,12 +7,13 @@
     <link rel="icon" type="image/png" href="img/favicon.png">
     <link rel="stylesheet" href="css/layout.css">
     <link rel="stylesheet" href="css/medium-view.css">
+    <link rel="stylesheet" href="css/clima.css">
     <link rel="stylesheet" href="iconos/font.css">
+    
     <link href= 'https://fonts.googleapis.com/css?family=Oswald&display=swap' rel="stylesheet">
     <title>Turisllajta</title>
 </head>
 <body>
-
         <header>
                 
             <nav>
@@ -21,7 +22,7 @@
                     <li><a href="layout.html">Inicio</a></li>
                         <li><a href="informacionjson.html">Lugares Turisticos</a></li>
                         
-                        <li><a href="#">Servicios</a></li>
+                       
                         <li><a href="Contacto.html">Contacto</a></li>
                         <li><a href="galeria.html">Galeria</a></li>
                 </ul>
@@ -117,14 +118,37 @@
                       
                
                 </aside>
-                <div class="social-bar">
-                        <a href="#" class="icon icon-facebook" ></a>
-                        <a href="#" class="icon icon-twitter" ></a>
-                        <a href="#" class="icon icon-whatsapp" ></a>
-                        <a href="#" class="icon icon-instagram"></a>
-                        <!--<a href="#" class="icon icon-instagram" target="_blank"></a> target es para que se abra en otra ventana-->
+                <div >
+                    <h1>Tiempo meteorologico</h1>
+                    <p>Clima <span id="cc-temp"></span>&deg; F <img
+                    id="cc-img"></p>
+                    
+                    
+                    
+                    <div class="weather-app">
+                        <div class="left">
+                      <div class="temperature"><span id="temperature">0</span>&deg;</div> 
+                      <div class="location"><span id="location">Unknown</span></div>
+                        </div>	
+                        <div class="right">
+                      <div class="top">
+                        <img id="icon" width="75px" src="img/300.png" />
+                      </div>
+                    
+                        <div class="bottom">
                         
-                    </div>
+                        <div class="humidity">
+                          <img src="img/humidity.png" height="16px" />
+                          <span id="humidity">0</span>%
+                        </div>
+                        
+                        <div class="wind">
+                          <span id="wind">0</span> mph <span id="direction">N</span>
+                        </div>
+                        
+                      </div>
+                        </div>
+                      </div>
                 <footer>
                    <h5>  DERECHOS RESERVADOS DIANA BEJAR - FABIOLA BUSTAMANTE. </h5>
 
@@ -134,6 +158,7 @@
                 </footer>
 
           <script src="js/menu.js"></script>
+          <script src="js/clima.js"></script>
     
 </body>
 </html>

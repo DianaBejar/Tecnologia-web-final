@@ -1,0 +1,41 @@
+
+#info
+{
+	
+	background: rgb(0, 70, 117);
+	color: #fff;
+	text-align: center; 
+}
+#info .contenidoinfo
+{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin: 1px;
+
+}
+
+.info-video video
+{
+	width: 100%;
+	height: 100%;
+}
+#info div
+{
+	margin: 50px; /*fondo de video tamaño*/
+	
+}
+@media (min-width: 480px)
+{
+	.info-video
+	{
+		width: 40%;
+	}
+}
+@media (min-width: 1024px)
+{
+	.info-video
+	{
+		width: auto;
+	}
+}
