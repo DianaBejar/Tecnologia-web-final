@@ -5,9 +5,10 @@ html {
   }
   
   body {
-    width: 800px;
-    margin: 0 auto;
+    
     background-image: url(../../../imagenes/fondojson.jpg);
+    width: 100%;
+    position: fixed;
    background-size: 100% 100%;
    background-attachment: fixed;
   }
